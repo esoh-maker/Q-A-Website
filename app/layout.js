@@ -1,0 +1,11 @@
+import './globals.css';
+
+export const metadata = { title: '대회 참가자 문의' };
+
+export default function RootLayout({ children }) {
+  return (
+    <html lang="ko">
+      <body>{children}</body>
+    </html>
+  );
+}
